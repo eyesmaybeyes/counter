@@ -1,2 +1,21 @@
-button {
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 10%;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    background-color: rgb(235, 90, 59);
+    color: #fff;
+}
+.button:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(0deg, rgb(235, 90, 59), rgb(179, 32, 32));
 }
